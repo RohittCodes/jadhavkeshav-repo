@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  background-color: #000;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
